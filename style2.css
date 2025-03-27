@@ -1,0 +1,72 @@
+.header{
+    width: 40px;
+    height: 40px;
+    border: 2px solid greenyellow;
+}
+
+header{
+  padding:15px;
+  background-color:#4711AE;
+  border-bottom:3px solid #42f5d7;
+  border-radius:15px;
+}
+
+nav a{
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    color: #FFDE00;
+    margin-right:100px;
+    border:3px dotted #FFDE00;
+    border-radius:15px;
+    padding:10px;
+    background-color:red;
+}
+
+nav {
+
+    display: flex;
+    justify-content: end;
+}
+
+header a::before {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 0;
+}
+
+header a:hover::before {
+    content: url("https://learn.algoritmika.org/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+body{
+  background:
+    linear-gradient(
+      90deg,
+      #4158d0 0%,
+      #4158d0 4%,
+      #c850c0 40%,
+      #c850c0 9%,
+      #ffcc70 90%,
+      #ffcc70 100%
+    );
+}
+
+.h1header{
+  text-align:center;
+  color:#42f5d7;
+}
+
+div{
+  padding:15px;
+  background-color:#4711AE;
+  border-bottom:3px solid #42f5d7;
+  border-radius:15px;
+  margin-top:20px;
+  color:#42f5d7;
+}
