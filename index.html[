@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Покупка</title>
+    <link rel="stylesheet" href="style2.css"/>
+  </head>
+  <body>
+    <header>
+      <img class="header" src="https://github.com/KastusBartus/painting/blob/main/kandinsky-download-1742632731193.png?raw=true">
+    <h1 class="h1header">Спасибо за покупку</h1>
+    <nav>
+      <a href="">Главная</a>
+    </nav>
+    </header>
+  </body>
+</html>
+    
