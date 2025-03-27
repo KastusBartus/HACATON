@@ -1,0 +1,134 @@
+.header{
+    width: 40px;
+    height: 40px;
+    border: 2px solid greenyellow;
+}
+
+header{
+  padding:15px;
+  background-color:#4711AE;
+  border-bottom:3px solid #42f5d7;
+  border-radius:15px;
+  
+}
+
+nav a{
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    color: #FFDE00;
+    margin-right:100px;
+    border:3px dotted #FFDE00;
+    border-radius:15px;
+    padding:10px;
+    background-color:red;
+}
+
+nav {
+
+    display: flex;
+    justify-content: end;
+}
+
+header a::before {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 0;
+}
+
+header a:hover::before {
+    content: url("https://learn.algoritmika.org/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.dos{
+  width:250px;
+  height:250px;
+  border:30px double #ffcc70;
+}
+
+body{
+  padding:20px;
+  background:
+    linear-gradient(
+      90deg,
+      #4158d0 0%,
+      #4158d0 4%,
+      #c850c0 40%,
+      #c850c0 9%,
+      #ffcc70 90%,
+      #ffcc70 100%
+    );
+}
+
+.doscon{
+  background-color:#4711AE;
+  border-radius:15px;
+  padding:10px;
+  margin-top:20px;
+}
+
+.doscontext{
+  color:#42f5d7;
+}
+
+ul{
+  float:right;
+  font-size:35px;
+  margin-right:100px;
+}
+
+.cena{
+  color:red;
+  text-align:center;
+  background-color:#ffcc70;
+  width:150px;
+  border:3px solid red;
+  border-radius:15px;
+}
+
+.cenacen{
+  color:#ffcc70;
+  margin-right:10px
+}
+
+.concena{
+  display:flex;
+}
+
+.cypit{
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    color: #FFDE00;
+    margin-right:100px;
+    border:3px dotted #FFDE00;
+    border-radius:15px;
+    padding:10px;
+    background-color:red;
+    margin-left:890px;
+}
+
+.cypit:hover{
+    text-decoration: none;
+    color: red;
+    border:3px dotted red;
+    border-radius:15px;
+    padding:10px;
+    background-color:#FFDE00;
+    margin-left:890px;
+}
+
+h1{
+  text-align:center;
+}
+
+.h1header{
+  text-align:center;
+  color:#42f5d7;
+}
+
